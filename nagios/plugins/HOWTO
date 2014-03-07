@@ -2,8 +2,8 @@ sadf.py -- this plugin uses sysstat to collect data
 =====================================================
 * This plugin depends on sysstat.  After installing sysstat, edit
   /etc/cron.d/sysstat to set /usr/lib64/sa/sa1 to run every one
-  minute.  Restart crond after editing /etc/cron.d/sysstat.  Below is
-  a sample configuration
+  minute.  Restart crond after editing /etc/cron.d/sysstat.
+  Below is a sample configuration
 
     */1 * * * * root /usr/lib64/sa/sa1 1 1
 
